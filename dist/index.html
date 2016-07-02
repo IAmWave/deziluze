@@ -30,7 +30,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href='https://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
-    <!-- Slabo? -->
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script>
@@ -75,16 +75,19 @@
     </nav>
 
     <section id="intro" class="section-intro">
+        <video autoplay poster="img/videoframe.jpg" id="intro-video">
+            <source src="video/deziluze.mp4" type="video/mp4">
+        </video>
         <div class="wrapper-outer">
             <div class="wrapper-inner">
                 <img src="img/deziluze_w.png" id="logo">
-                <h1 style="color:white;padding-top:10px;line-height:150%">29.–30. 8. 2016<br>Lahovičky (Praha – Zbraslav)</h1>
+                <h1>29.–30. 8. 2016<br>Lahovičky (Praha – Zbraslav)</h1>
             </div>
         </div>
-        <canvas id="bgCanvas"></canvas>
-        <script src="js/branches.js"></script>
+        <!--<canvas id="bgCanvas"></canvas>
+        <script src="js/branches.js"></script>-->
     </section>
-
+    <div class="separator" style="height:2px;background-color:white;"></div>
     <section id="o-nas" class="section inv section-o-nas">
         <div class="container">
             <div class="row">
@@ -252,6 +255,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
