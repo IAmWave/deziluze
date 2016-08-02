@@ -29,10 +29,10 @@ body {
     font-family: $font-main;
     color: black;
     background-color: white;
-    font-size: 15px;
-    @media (min-width: 768px) {
+    font-size: 17px;
+    /*@media (min-width: 768px) {
         font-size: 17px;
-    }
+    }*/
     background: url('../img/brush1.jpg');
     //background-attachment: fixed;
 
@@ -86,7 +86,9 @@ a {
     color: $black-2;
 }
 
-
+.center {
+    text-align: center;
+}
 
 .section-intro {
     @media (max-width: 767px) {
@@ -292,7 +294,9 @@ a {
 }
 
 .section-prakticke {
-
+    li {
+        margin-bottom: 10px;
+    }
 }
 
 .section-kontakty .textblock {
