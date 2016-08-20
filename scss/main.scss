@@ -220,7 +220,70 @@ a {
     //background-color: rgba($white-2, 0.3);
 }
 
+@mixin artist {
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: 18px;
+    @media (min-width: 768px) {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+
 .section-program {
+
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #BBB
+    }
+
+    .day {
+        padding-left : 20px;
+        padding-right: 20px;
+    }
+
+    .event {
+        width: 100%;
+        border-collapse: separate;
+        padding: 30px 10px 10px 10px;
+        //border-spacing: 50px;
+        
+        cursor: pointer; 
+        @include vendor-prefix('transition', '0.3s color, 0.3s background-color');
+        &:hover {
+            color: white;
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .event-name{
+            text-align: left;
+            @include artist;
+            font-size: 25px;
+        }
+
+        .stage-1 {
+            text-transform: uppercase;
+            //font-variant: small-caps;
+        }
+
+        .stage-2 {
+        }
+
+        .stage-3 {
+            font-weight: 400;
+        }
+
+        .event-time {
+        }
+
+        .event-stage {
+            text-align: right;
+            font-style: italic;
+        }
+    }
     //background: #fff;
 }
 
@@ -233,24 +296,16 @@ a {
 
     .event {
         text-align: center;
+        @include artist;
         padding: 10px;
-        font-size: 18px;
-        font-weight: 700;
         padding-top: 20px;
         padding-bottom: 20px;
         cursor: pointer; 
 
         @include vendor-prefix('transition', '0.3s color, 0.3s background-color');
         &:hover {
-            color: white;
-            background-color: rgba(0,0,0,0.8);
-        }
-        
-        
-
-        @media (min-width: 768px) {
-            font-size: 25px;
-
+            color: black;
+            background-color: rgba(255,255,255,0.8);//rgba(0,0,0,0.8);
         }
     }
 }

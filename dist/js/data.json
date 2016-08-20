@@ -1,125 +1,321 @@
 {
+    "program": [
+        {
+            "name": "Pondělí 29. 8.",
+            "data":
+        [{
+            "id": "e_theconductors",
+            "time": "13:00",
+            "stage": 1
+        },{
+            "id": "e_cernykafe",
+            "time": "13:30",
+            "stage": 2
+        },{
+            "id": "e_balfolk",
+            "time": "14:00",
+            "stage": 3
+        },{
+            "id": "e_tbeegirls",
+            "time": "14:45",
+            "stage": 1
+        },{
+            "id": "e_strohoskop",
+            "time": "15:30",
+            "stage": 2
+        },{
+            "id": "e_vojtastepan",
+            "time": "16:15",
+            "stage": 3
+        },{
+            "id": "e_thevanilles",
+            "time": "16:30",
+            "stage": 1
+        },{
+            "id": "e_parkour",
+            "time": "17:10",
+            "stage": 3
+        },{
+            "id": "e_zombak",
+            "time": "17:20",
+            "stage": 3
+        },{
+            "id": "e_johnnynasilnik",
+            "time": "17:50",
+            "stage": 1
+        },{
+            "id": "e_trabandita",
+            "time": "18:30",
+            "stage": 2
+        },{
+            "id": "e_theradicals",
+            "time": "19:15",
+            "stage": 1
+        },{
+            "id": "e_honzajicha",
+            "time": "20:00",
+            "stage": 2
+        },{
+            "id": "e_vagynydypraga",
+            "time": "21:00",
+            "stage": 1
+        },{
+            "id": "e_edosh",
+            "time": "21:45",
+            "stage": 2
+        },{
+            "id": "e_38wave",
+            "time": "22:30",
+            "stage": 2
+        },{
+            "id": "e_djjuice",
+            "time": "23:15",
+            "stage": 2
+        }]
+    }, {
+        "name": "Úterý 30. 8.",
+        "data": 
+        [{
+            "name": "Lukáš Tomášek",
+            "id": "e_lukastomasek",
+            "time": "12:00",
+            "stage": 2
+        },{
+            "id": "e_knownasbrooklyn",
+            "time": "12:45",
+            "stage": 1
+        },{
+            "id": "e_swing",
+            "time": "13:30",
+            "stage": 3
+        },{
+            "id": "e_mosquitos",
+            "time": "14:15",
+            "stage": 1
+        },{
+            "id": "e_dominikkotyza",
+            "time": "15:45",
+            "stage": 1
+        },{
+            "id": "e_skladbywalda",
+            "time": "15:45",
+            "stage": 2
+        },{
+            "id": "e_jakubsmrsin",
+            "time": "16:30",
+            "stage": 3
+        },{
+            "id": "e_jasnejpomeranc",
+            "time": "17:00",
+            "stage": 1
+        },{
+            "id": "e_cigarettesyndrome",
+            "time": "17:45",
+            "stage": 2
+        },{
+            "id": "e_20minutes",
+            "time": "18:30",
+            "stage": 1
+        },{
+            "id": "e_vobezdud",
+            "time": "19:45",
+            "stage": 1
+        },{
+            "id": "e_tygroo",
+            "time": "21:15",
+            "stage": 1
+        },{
+            "id": "e_nervimidoucha",
+            "time": "22:15",
+            "stage": 2
+        },{
+            "id": "e_boombay",
+            "time": "23:15",
+            "stage": 2
+        },{
+            "id": "e_duckthemainstream",
+            "time": "21:15",
+            "stage": 1
+        }]
+    }],
+
     "ucinkujici": {
+        "e_duckthemainstream": {
+            "name": "Duck the mainstream",
+            "desc": "",
+            "sample": ""
+        },
+        "e_knownasbrooklyn": {
+            "name": "Known as Brooklyn",
+            "desc": "",
+            "sample": ""
+        },
+        "e_theradicals": {
+            "name": "The Radicals",
+            "desc": "",
+            "sample": ""
+        },
+        "e_johnnynasilnik": {
+            "name": "Johnny Násilník",
+            "desc": "",
+            "sample": ""
+        },
+        "e_strohoskop": {
+            "name": "Strohoskop",
+            "desc": "",
+            "sample": ""
+        },
+
+        "e_jasnejpomeranc": {
+            "name": "Jasnej pomeranč",
+            "desc": "",
+            "sample": ""
+        },
 
         "e_tygroo": {
+            "name": "Tygroo",
             "desc": "Kapela Tygroo vynalézavě kombinuje tradiční žánry jako klezmer a balkánskou hudbu s žánry moderními, jako jsou například funk a hiphop, ale také dubstep a další elektronická hudba. To vše hrají na akustické nástroje, především dechy a bicí, což kapele dodává velmi výraznou barvu a energii, jejíž vlny vás zanesou tu do New Orleans, tu na Guču nebo do Oděsy, tu do zas newyorského metra. Přijďte si poslechnout Klezmer-Funk, Balkan-Jungle, Jazz-Dubstep, Brasshouse, Cave Music, Trashdisco a kdo ví co ještě!",
             "sample": "https://www.youtube.com/watch?v=G38UPUEclCA"
         },
         "e_20minutes": {
+            "name": "20 minutes",
             "desc": "20 minutes je pražská art-popová kapela, jejíž jádro tvoří výjimečně dvě frontmanky - jednovaječná dvojčata.\nVýraznou částí tohoto uskupení jsou právě dvojčata Simona a Denisa Katzer, která za sebou mají hostování a spolupráce s významnými muzikanty české scény (Mandrage, Adrian T. Bell, Tata Bojs, Holden Caulfield, LUNO) a desítky samostatných koncertů. Nabité zkušenosti uplatňují v jejich projektu 20 minutes, který odstartoval své působení v roce 2010.",
             "sample": "https://www.youtube.com/watch?time_continue=152&v=HeSrsJSi920"
         },
         "e_dominikkotyza": {
+            "name": "Dominik Kotyza s kapelou",
             "desc": "\"Žižkovský folk-punk je hudební styl, který pochází ze Žižkova, hlavního města Prahy. Obsahuje prvky folku, zejména po hudební stránce a punku po textové stránce. Stačí k tomu jedna kytara a jedny hlasivky a občas i foukací harmonika, když jí nezapomenu ve futrálu. Jestli to smysl nedává, ukážu vám to názorně na festivalu ;-)\"",
             "sample": "https://www.youtube.com/watch?v=1xg8xKIBei0"
         },
         "e_cernykafe": {
+            "name": "cernykafe",
             "desc": "Zevnitř, upřímně, po nocích, na mobil, akusticky, cernykafe.",
             "sample": "https://soundcloud.com/cernykafe"
         },
         "e_cigarettesyndrome": {
+            "name": "Cigarette Syndrome",
             "desc": "Velmi hlasití pražáci, jejichž ostré riffy se zavrtávají hluboko do uší. Po koncertu jsou kytary znásilněné, hlasivky vyřvané, košile propocené. Půlroku staré pětistopé demo, které bylo vlastními silami nahrané ve sklepě, je oázou undergroundového hluku.",
             "sample": "https://www.youtube.com/watch?v=MMwyMaRdcO8"
         },
         "e_mosquitos": {
+            "name": "Mosquitos",
             "desc": "Mosquitos je velmi mládá kapela z Barrandova. Orientuje se na swing, pop a lidové melodie z Balkánu.",
             "sample": ""
         },
         "e_honzajicha": {
+            "name": "Honza Jícha",
             "desc": "Učitelsko-žákovské hudební těleso - akustický nářez, intimní lyrika a srandy až do rána. Pro všechny, kdo ještě věří, že folk's not dead.",
             "sample": "https://www.youtube.com/watch?v=mpjhC6oPHcg"
         },
         "e_lukastomasek": {
+            "name": "Lukáš Tomášek",
             "desc": "Lukáš Tomášek vystupuje jako básník a písničkář, převážně v Septimontiu Prahy. Je-li v jeho díle zaznamenán náznak čisté epiky, jedná se vždy o skutečnost.",
             "site": "http://bandzone.cz/babydall"
         },
         "e_justfloating": {
+            "name": "Just Floating",
             "desc": "Jsme parta lidí z Gymnázia Jana Palacha, kterou baví hrát a zpívat :) Nejvíc nás baví covery napříč různými žánry a občas doplníme vlastníma věcma. Hrajeme pop, folk, country, blues, jazz, rock, funk.",
             "site": "http://justfloating.cz/"
         },
         "e_theothers": {
+            "name": "The Others",
             "desc": "Revival známych skupin od Green Day, Oasis přes Embrace až po Smokie. Dva zpěvy a akurátní náboj.",
             "site": "http://bandzone.cz/_81143"
         },
         "e_trabandita": {
+            "name": "Trabandita",
             "desc": "Harmonium a hlas, procházka krajinami duše, písničky mezi kostelem a hospodou.",
             "sample": "https://www.youtube.com/watch?v=dvG6Hq5ICU8",
             "site": "https://soundcloud.com/trabandita/"
         },
         "e_vobezdud": {
+            "name": "VOBEZDUD",
             "desc": "Písničkově-alternativní VOBEZDUD kombinuje prvky folku, šansónu, popu, diska a všeho možného i nemožného v místy až punkrockovém negližé. Hlavní slovo mají housle a akordeon, v písničkách s mnohohlasými refrény se Tereza, Fany a Josefína (frontwomenky a zakladatelky kapely) vyzpívávají z reálných problémů a traumat, aniž by ztrácely vtip a nadhled. Své koncerty kapela občas ozvláštňuje originálními kostýmy.",
             "site": "http://www.vobezdud.cz/"
         },
         "e_thevanilles": {
+            "name": "The Vanilles",
             "desc": "The Vanilles jsou tříčlenná pop-rocková kapela z Prahy. Dohromady se dali v roce 2012 kdy vše začal David Skokan s Jiřím Sojkou. Po různých obměnách fungovali spíše pro společné krácení pátečního odpoledne. Vše  se ale změnilo, když se jednou ve zkušebně potkali s Vojtou Jelínkem, který navrhl, že by si chtěl společně zahrát koncert jako bubeník. A tak se v létě 2014 uskutečnil první koncert. Od té doby v podstatě kapela aktivně vystupuje. Na basu nyní hraje Michal Vašek, místo Jiřího Sojky.",
             "sample": "https://www.youtube.com/watch?v=CKGGr2G_wv0"
         },
         "e_nervimidoucha": {
+            "name": "Neřvi mi do ucha",
             "desc": "Neřvi mi do ucha je československé trio, označující se za vynálezce žánru introvertní disko. Dunivé beaty, klávesy, klarinet a saxofon, československé zadumané texty. Kapela sestává ze sourozenců Tobiáše (klávesy) a Alžběty (klarinet, saxofon) a zpěvačky Martiny. Vznikli v létě 2013, na jaře 2014 se dostali do finále Startéru, soutěži neobjevených talentů na Radiu Wave. Vydali EP1 (2014) a EP2 (2016), slyšet je můžete na Radiu Wave, na slovenském Radiu_FM a na pražském Radiu 1.",
             "sample": "https://www.youtube.com/watch?v=FkBAqvTknEY"
         },
         "e_38wave": {
+            "name": "38wave",
             "desc": "Jsme 38wave, což je nová progresivní vlna striktního rapu tak, jak má vypadat. Zabýváme se hlavně grimem, občas trapem a hip-hopem.\nVyhledáváme alternativní beaty do kterejch sázíme neohranou flow, která tě bude bavit. Mezi tvrdejma Bars u nás najdeš taky sem tam vtipný fráze.",
             "sample": "https://soundcloud.com/martin-kachl-k/b-side-flows-ft-38-lebman"
         },
         "e_zombak": {
+            "name": "Zombák",
             "desc": "Ovace narcismu. Prosím smekněte klobouky před hlupcem. Definitivní rozklad osobnosti principála a jeho fialových tygrů, kteří přichází po setmění. Lyrika zemřela, novinové výstřižky složily osobu a písmena se rozeběhla po dlažebních kostkách.\nTo je Praha, noc a frustrace.\nŘíkají mi Zombák.",
             "sample": ""
         },
         "e_jakubsmrsin": {
+            "name": "Jakub Smršín",
             "desc": "Málokdo mě zná mým pravým jménem, obecně mě lidi znají jako Smršína, což už je prakticky mé druhé jméno. Píšu něco, co je směsí dekadence a alkoholických balad a samozřejmě taky něco o lásce. Na pažbě mám dvě sbírky a třetí připravuju. Budu asi číst primárně z té připravované."
         },
-        "e_lukastomasek": {
-            "desc": "Expresivní lyrika neoprofetismu, stínové divadlo Prahy a etiopských vysočin."
-        },
         "e_vojtastepan": {
+            "name": "Vojta Štěpán",
             "desc": "Tak teda něco o tvorbě - řek bych, že to jsou různý řetězce asociací, bizarnosti, co se mi vylíhnou v hlavě, proudy myšlenek & podobný podivnosti, z kterejch splácám dohromady básně."
         }, 
         "e_parkour": {
+            "name": "Parkour - Vojta Hošek a společenstvo ocasů",
             "desc": "Vojta Hošek a společenstvo ocasů. Parkour. Pády na hlavu a páteř. Hledání poztrácených žonglovacích míčků a tak."
         },
 
         "e_theconductors": {
+            "name": "The Conductors",
             "desc": "The Conductors jsou česká indie-rocková kapela založená v únoru roku 2016.\nKapela se skládá ze čtyř členů: sólový kytarista Martin Havelka, baskytarista Jonatán Habart, bubeník Dan Maier a zpěvák a kytarista Petr Kolodrubec.\nKapela je ovlivněna britským indie-pop-rockem a kapelami např.: The Kooks, Arctic Monkeys, Two Door Cinema Club, Alt-J, The Beatles, Canterbury, Royal Blood, Nirvana.",
             "sample": ""
         },
         "e_djjuice": {
+            "name": "DJ Juice",
             "desc": "Začátečník samouk, který si neskromně myslí, že umí dělat párty. Zahraje v rytmu temného house.",
             "sample": ""
         },
         "e_boombay": {
+            "name": "BoomBay",
             "desc": "Bude to zlý, a to hodně, asi jako Hitler, možná i horší. Každopádně jsme hiphopem prolezlý skrz naskrz a tak i vypadá naše tvorba, prostě přijdťe na fakt divnej hiphop.",
             "sample": "https://www.youtube.com/watch?v=sp9mTWDqFBc"
         },
         "e_edosh": {
+            "name": "Edosh & Smrad",
             "desc": "Edosh je z Kur-níku a PTAKZ. Asociál rap s prvky hysterie. Texty přemejšlivý, beaty kyselý, koncert živej.",
             "sample": "https://www.youtube.com/watch?v=N7yTLuqYuFs"
         },
         "e_tbeegirls": {
+            "name": "TBeeGirls",
             "desc": "TBeeGirls jsou dvojčata slovenského původu, které vás unesou do říše pop-country a harmonických dvojhlasů. Děvčata jste již mohli vidět na pražském Majálesu nebo je potkat v ulicích Prahy, kde působí jako buskeřky. Spolu vystupují již od dětství. Ve formě kytary, houslí a dvou zpěvů začaly před 4 léty právě na ulici. Jak samy tvrdí, živé vystoupení a spojení s lidmi jsou pro ně největší hudební radostí.",
             "sample": "https://www.youtube.com/watch?v=R2q8G9aohkg"
         },
         "e_skladbywalda": {
+            "name": "Sklad by Walda",
             "desc": "Avantgardní kytarové skladby s psychedelicko-rockovými prvky na bázi Svého i s hlasem a vlastním Svým!\nVítěz malé alternativy 2014.\nDebutové CD - Korální zpěvy 2015.\nTáhlým tónem k ponurosti.\nBoule svět!",
             "sample": "https://www.youtube.com/watch?v=bplp_QTtdV4"
         },
         "e_mollgoth": {
+            "name": "MollGoth",
             "desc": "Symphonic-metalová kapela MollGoth je spojení klasického metalového uskupení s violoncellem a orchestrem. Naším cílem je zanechat v posluchačích silné emoce a snažíme se najít skulinku mezi mainstramem a undergroundem, abychom hráli hudbu, která je zajímavá, ale stále poslouchatelná.",
             "sample": "http://bandzone.cz/mollgoth"
         },
         "e_vagynydypraga": {
+            "name": "Vagyny dy Praga",
             "desc": "Punk! Rock'n'roll! Hip hop! Metal! Country! Funky! Žádné žánrové omezení! Maximální pódiová šou! A pořádný chlapský pití... Vaječňák s griotkou!\nMužský sbor Vagyny Dy Praga se uskupil v roce 2004 jako hudební sekce pánské části divadelního spolku Ztracená existence.\nVéDéPéčka pravidelně hrají na alternativních stageích velkých fesťáků (Mighty Sounds, Sázavafest, Majáles, Strahov Open Air...).\nNa svém kontě mají jedno profi CD Zřejmě humor, jedno garážové cd s příznačným názvem \"Vagyny maj koule!\" a jeden Živák.\nTato vykutálená pražská partička vystupuje v rámci pražské klubové a hospodské scény (Rock Café, Slamník, Modrá Vopice...) a pořádá i vlastní hudební festival (Vagyny SummerdayFest a Ratifest).",
             "sample": "https://www.youtube.com/watch?v=wcWMIR6sKg8",
             "site": "http://vagynydypraga.cz/" 
         },
-        "e_balfolkovytanecniworkshop": {
-            "desc": "Balfolk =  tance z celého světa. Zábavné, hravé, jednoduché, prostě pro všechny.\nUdělali bychom takovou nějakou úvodní lekci, se základními tanci (jednoduché, kruhové i párové, není třeba žádných speciálních obleků či bot ani předchozích tanečních zkušeností), na přátelské bázi. Hudba by byla zprostředkována pravděpodobně harmonikářem (Mikuláš), pokud bychom ještě nějaké muzikanty sehnali, tak vícero nástroji, při nejhorším hudbou reprodukovanou (ale ta je taky super :) ).\nŽádný větší koncert bohužel nemůžeme v tuto dobu poskytnout. Ale pak od září budeme dělat akce v Praze pravidelně aspoň dvakrát měsíčně, takže kdo by měl zájem, bude toho více, toto by byla spíše taková ochutnávka a ukázka lidem, že tance není třeba se bát :)",
+        "e_balfolk": {
+            "name": "Balfolkový taneční workshop",
+            "desc": "Balfolk = tance z celého světa. Zábavné, hravé, jednoduché, prostě pro všechny.\nUdělali bychom takovou nějakou úvodní lekci, se základními tanci (jednoduché, kruhové i párové, není třeba žádných speciálních obleků či bot ani předchozích tanečních zkušeností), na přátelské bázi. Hudba by byla zprostředkována pravděpodobně harmonikářem (Mikuláš), pokud bychom ještě nějaké muzikanty sehnali, tak vícero nástroji, při nejhorším hudbou reprodukovanou (ale ta je taky super :) ).\nŽádný větší koncert bohužel nemůžeme v tuto dobu poskytnout. Ale pak od září budeme dělat akce v Praze pravidelně aspoň dvakrát měsíčně, takže kdo by měl zájem, bude toho více, toto by byla spíše taková ochutnávka a ukázka lidem, že tance není třeba se bát :)",
             "site": "http://balfolk.rond.cz/balfolk/"
         },
-        "e_swingovytanecniworkshop": {
+        "e_swing": {
+            "name": "Swing it out!",
             "desc": "",
             "sample": ""
         }
-
     }
 }

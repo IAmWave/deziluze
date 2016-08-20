@@ -75,13 +75,67 @@ var dataJSON;
 
 $.getJSON("/js/data.json", function (data) {
     dataJSON = data;
+
+    var program = $('#program-body');
+    /*
+    <div class="col-md-6">
+                            <h2>Pondělí 29. 8.</h2>
+                            <div class="event">Vobezdud</div>
+                        </div>
+    */
+    var handleClick = function(event){
+        showModal(event.target.getAttribute('event-id'));
+        event.stopPropagation();
+    }
+
+    for(var i = 0; i < data.program.length; i++){
+        var day = $('<div>').addClass("col-md-6").addClass('day');
+        day.append($('<h2>').append(data.program[i].name));
+        for(var j = 0; j < data.program[i].data.length; j++) {
+            var cur = data.program[i].data[j];
+            if(!data.ucinkujici[cur.id]) {
+                console.log(cur.id + " missing");
+                continue;
+            }
+            var stageName = 'Stage: ' + ['', 'Cukr', 'Káva', 'Limonáda'][cur.stage];
+
+            day.append($('<table>')
+                .addClass('event')
+                .attr('event-id', cur.id)
+                .append($('<tr>')
+                    .append($('<td>')
+                        .attr('colspan', 2)
+                        .attr('event-id', cur.id)
+                        .append(data.ucinkujici[cur.id].name)
+                        .addClass('stage-'+cur.stage)
+                        )
+                        .addClass('event-name')
+                    )
+                .append($('<tr>')
+                    .append($('<td>').append(cur.time).addClass('event-time').attr('event-id', cur.id))
+                    .append($('<td>').append(stageName).addClass('event-stage').attr('event-id', cur.id))
+                    )
+            );
+        }
+
+        program.append(day);
+        
+        //program.append();
+        
+    }
+    
+
+
+    $(".event").click(handleClick);
+
 });
 
-$(".event").click(function(event){
-    if(!dataJSON) return;
-    
-    if(!makeDescription(event.target)) return;
+var showModal = function(name){
 
+    if(!dataJSON) return;
+    console.log("asdf "+name);
+    if(!makeDescription(name)) return;
+    
     $('#modal').css({
         "visibility": "visible",
         "opacity": 1,
@@ -102,14 +156,14 @@ $(".event").click(function(event){
         });
         $('body').removeClass("noscroll").width("100%");
     });
-});
+};
 
-var makeDescription = function(element){
-    if(!dataJSON.ucinkujici[element.id]) return false;
-    var data = dataJSON.ucinkujici[element.id];
+var makeDescription = function(id){
+    if(!dataJSON.ucinkujici[id]) return false;
+    var data = dataJSON.ucinkujici[id];
     var target = $('#modal-inner');
     target.empty();
-    target.append("<h1>"+element.innerHTML+"</h1>");
+    target.append("<h1>"+data.name+"</h1>");
     if(data.desc){
         data.desc = data.desc.replace("\n", "</p><p>");
         target.append("<p>"+data.desc+"</p>");
