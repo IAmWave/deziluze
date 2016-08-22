@@ -236,8 +236,8 @@ a {
 
     h2 {
         text-align: center;
-        padding-bottom: 10px;
-        border-bottom: 2px solid #BBB
+        //padding-bottom: 10px;
+        //border-bottom: 2px solid #BBB
     }
 
     .day {
@@ -287,12 +287,14 @@ a {
     //background: #fff;
 }
 
+h2 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #BBB
+}
+
 .section-ucinkujici {
 
-    h2 {
-        padding-bottom: 10px;
-        border-bottom: 2px solid #BBB
-    }
+
 
     .event {
         text-align: center;

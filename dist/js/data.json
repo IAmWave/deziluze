@@ -147,28 +147,30 @@
         },
         "e_knownasbrooklyn": {
             "name": "Known as Brooklyn",
-            "desc": "",
-            "sample": ""
+            "desc": "\"Jsme čtyřčlenná indie pop-rocková kapela z Prahy, které k úsměvu a pohupování se na place stačí melodická kytara a trochu synthu. Za sebou máme například vystoupení na United Islands, Budějovickém majálesu nebo v Rock Café. Letos jsme vydali debutové album s názvem City Tales. Je volně k poslechu např. na Spotify nebo iTunes (zároveň jich vždycky vozíme pár s sebou - dá se i zakoupit). Jako naše hudební inspirace by se daly zmínit kapely jako Two Door Cinema Club nebo The 1975.\"\n<a href=\"https://play.spotify.com/artist/10s7M9HbU5z1QCRQliBeRd\">Album City Tales</a>",
+            "sample": "https://www.youtube.com/watch?v=FfAbxPavoZI",
+            "site": "www.facebook.com/knownasbrooklyn"
         },
         "e_theradicals": {
             "name": "The Radicals",
-            "desc": "",
-            "sample": ""
+            "desc": "\"Po předčasném úmrtí zakladatele a frontmana Jana Kurce ve 23 letech na rakovinu plic, se banda The Radicals úplně rozpadla. Někteří členové se poté věnovali svým postranním projektům a někteří jenom zevlovali na B-sajdu.\nV novém složení kapela trošičku přearanžovala původní skladby, přidala čtyři staronové a vyšvihla jednu zbrusu novou.\nNyní je kapela ve stavu, že hledá nové posluchače, kterým by se naše tvorba líbila. Pokud jsme tě nějak zaujali, tak budeme rádi, když nás doporučíš. Pokud bychom tě zaujali natolik, že bys nás rád viděl na nějakém lokálním koncertě, tak neváhejte se nám ozvat… Dá se domluvit skoro na čemkoliv.\"\nThe Radicals!",
+            "sample": "",
+            "site": "http://www.theradicals.cz/"
         },
         "e_johnnynasilnik": {
             "name": "Johnny Násilník",
-            "desc": "",
-            "sample": ""
+            "desc": "Johnny Násilník je gauner. Vysoký hejsek odněkud z maloměsta, zaklesnutý v Praze jako oslizlá naplavenina ve smrduté Vltavě. Poéta-anarchista, nultá mutace Lukáše Bendy, Johnny Rotten z Boleslavi. Je něco, jako když od někoho dostanete kinder vajíčko, oloupete ho a místo v čokoládě je uvězněné v kyanidové krustě a vevnitř plastové urny jsou sestavitelná mikrohovna. Drzost nad drzost a totální piss na jakoukoli konformitu. (Kay Buriánek, časopis Headliner).",
+            "site": "http://nowaveskids.bandcamp.com/album/nem-m-ep soundcloud.com/johnnynasilnik"
         },
         "e_strohoskop": {
             "name": "Strohoskop",
-            "desc": "",
+            "desc": "Pijeme hodně Strohu. To je asi vše co byste měli vědět. Občas se stane že pijeme kytary a hrajeme na Stroh. A občas se stane že to někdo poslouchá. Je to minimalismus, je to folk-punk, je to alkoholismus a je to akustické. Kde máš ty panáky?!",
             "sample": ""
         },
 
         "e_jasnejpomeranc": {
             "name": "Jasnej pomeranč",
-            "desc": "",
+            "desc": "Jsme jasný a jsme pomerančový. Jsme rafinovaný a vykutálený. Jsme občas vožralý. Jsme v pohodě. Hrajem a baví nás to. Třeba to bude bavit i vás.",
             "sample": ""
         },
 
@@ -294,7 +296,7 @@
         "e_skladbywalda": {
             "name": "Sklad by Walda",
             "desc": "Avantgardní kytarové skladby s psychedelicko-rockovými prvky na bázi Svého i s hlasem a vlastním Svým!\nVítěz malé alternativy 2014.\nDebutové CD - Korální zpěvy 2015.\nTáhlým tónem k ponurosti.\nBoule svět!",
-            "sample": "https://www.youtube.com/watch?v=bplp_QTtdV4"
+            "sample": "https://www.youtube.com/watch?v=HpTg_Vh6TyI"
         },
         "e_mollgoth": {
             "name": "MollGoth",
@@ -308,14 +310,37 @@
             "site": "http://vagynydypraga.cz/" 
         },
         "e_balfolk": {
-            "name": "Balfolkový taneční workshop",
+            "name": "Balfolk - si zatancovat",
             "desc": "Balfolk = tance z celého světa. Zábavné, hravé, jednoduché, prostě pro všechny.\nUdělali bychom takovou nějakou úvodní lekci, se základními tanci (jednoduché, kruhové i párové, není třeba žádných speciálních obleků či bot ani předchozích tanečních zkušeností), na přátelské bázi. Hudba by byla zprostředkována pravděpodobně harmonikářem (Mikuláš), pokud bychom ještě nějaké muzikanty sehnali, tak vícero nástroji, při nejhorším hudbou reprodukovanou (ale ta je taky super :) ).\nŽádný větší koncert bohužel nemůžeme v tuto dobu poskytnout. Ale pak od září budeme dělat akce v Praze pravidelně aspoň dvakrát měsíčně, takže kdo by měl zájem, bude toho více, toto by byla spíše taková ochutnávka a ukázka lidem, že tance není třeba se bát :)",
             "site": "http://balfolk.rond.cz/balfolk/"
         },
         "e_swing": {
             "name": "Swing it out!",
-            "desc": "",
-            "sample": ""
+            "desc": "Je rychlý, je dynamický, a a po více než půlstoletí se vrací plně na prkna evropských tančíren. O čem je řeč? Přece o swingu, tanci, který v dnešní době zažívá strmý vzestup popularity.\nA abychom nenechávali tanec jen lektorům a jejich žákům v placených kurzech, přinášíme Vám ukázkovou hodinu i na Deziluzi, a to přímo před koncert kapely Mosquitos. Ať jste úplní začátečníci, máte za sebou taneční anebo jste tančili déle, přijďte se podívat na ukázkovou hodinu Petra a Rút a naučte se ještě před začátkem koncertu základy swingu!"
+        },
+        "e_kristynavladykova": {
+            "name": "Kristýna Vladyková",
+            "desc": "Název moc nevim. Jsou to prostě různý ilustrace a čmáranice ze školy."
+        },
+        "e_anezkavelinska": {
+            "name": "Anežka Velinská",
+            "desc": "Kreslím své pocity. Vždy se jedná o text a ilustraci k němu. Je to poměrně jednoduchá kresba, která je znázorněná (doufejme velice přesně). Jsem člověk bez výtvarného vzdělání, který se tento rok pokusí udělat zkoušky na UMPRUM katedry ilustrace. Kreslení mě naplňuje, ulevuje mi a tvoří mě šťastnou."
+        },
+        "e_annaeisova": {
+            "name": "Anna Eisová - Emoce",
+            "desc": "Na tento námět mě dovedla skupina lidí, se kterou se scházím již pět let. Ne, nejsme anonymní alkoholici. Moje skupina Feuersteiňáků je skupina lidí, kteří mají poruchy učení (čtení,psaní,počítání...) tzv. \"Dis\". Letošním tématem byly emoce a jelikož i ráda fotím, přišlo mi to jako skvělé téma. Zaznamenávám narozeniny i posezení u kávy v kavárně a vždy je tam spousta příběhů a prožitků. Emoce! Prostě inspirující téma!\n\nMoje životní heslo je rychle, stručně a hlavně jasně.\nNikdy jsem se nepokoušela o uměleckou fotku; zkouším, co se dá dělat v tu danou chvíli. Nevyšlo to? Nevadí. Proto se může moje album zdát obyčejné a bez nápadu, ale musím upozornit, jak již název napovídá, je to o emocích a ne o umění.\nMoje zájmy, mimo fotografování, je psaní, tanec a fotbal. Kombinace se může zdát zvláštní, ale to je to, co mě naplňuje a když se usmívám, usmívají se lidé i do mé \"čočky\"."
+        },
+        "e_martinjanzura": {
+            "name": "Martin Janžura - Hosté",
+            "desc": "Téma: skrytě uprchlíci (navazuje na Eliščiny fotky z Idomeni), romantismus\nMaluji to vožralej jak droga, dělám to z odpadků co přinesu z kontejneru, přesto moje obrazy mají, možná právě proto onu sílu. Snažím se jimi zaujmout svůj postoj, který skrze obrazy i hledám. Na mých obrazech budete moci poznat mé vidění světa jak dnešního, tak i minulého.\nNejím maso. Piju pivo z petlahve. Můj přítel, Honza, říká, že neumím lhát. K malbě mě vždycky inspirovala taneční, swingová a jazzová hudba. Honza poznamenal: \"Neuvěřitelně se bojí letět letadlem a hryže syrový brambory!\" Pousmál se a dodal velmi vážnou poznámku: \"Je schopen spát do čtrnácti nula nula.\" Čtyři kafe a sedm cigaret, to je moje snídaně. \nPoznámky z vytváření článku:\nHonza: \"Nekouří jenom když spí, doma má asi dvacet sedm popelníků.\"\nMartin, suchým, seriózním hlasem: \"Třicet jedna.\"\nKdyž Honza vypráví, jak si o popelník rozflákal ruku, Martin ve stresu sbírá střepy popelníku z roku 19XX, zatímco Honzovy odtéká z ruky pramínek krve.\nMartin Janžura nám svými nikotinovými prsty zaznamenal svoje rozpolcenosti, pocity a postoje."
+        },
+        "e_eliskakurcova": {
+            "name": "Eliška Kurcová - Open Borders",
+            "desc": "\"Nevěděla jsem, co si o nich mám myslet. Tak jsem se na ně jela do Řecka podívat, že si udělám názor.\nZažila jsem spoustu dojemných, šťastných a smutných chvil, cítila i zlobu (pro mě neobvyklou, častěji fňukám, než aby se ve mně vařila krev), opovržení a poznala aroganci, které jsem se nemohla, než smát. Po téhle velké zkušenosti, kdy jsem pro ně vařila mezi grupou anarchistů, jsem čekala, že si vytvořím postoj.\nNevím co si o nich mám myslet ještě víc než předtím. \nAle pomoct by se jim teda mělo, to je hotová věc.\nŠiřme lásku, ono se nám to vrátí.\nJsem lišče, co poznává svět a je na něm rádo, je z něj dost vykulený. Ale líbí se mi tu a i když mám občas pochyby, jsem šťastná, že tu jsem a fotím.\""
+        },
+        "e_oskarhelcel": {
+            "name": "Oskar Helcel - Pozůstalost",
+            "desc": "Kontakty negativů z pozůstalosti rozdělené do tématických celků. Možnost nahlédnutí do cizího archivu, ale bez znalosti souvislostí situací a objektů zachycených na fotografiích. Neznáme pozorovatele, známe pouze jeho vidění."
         }
     }
 }

@@ -117,15 +117,9 @@ $.getJSON("/js/data.json", function (data) {
                     )
             );
         }
-
         program.append(day);
-        
-        //program.append();
-        
     }
     
-
-
     $(".event").click(handleClick);
 
 });
@@ -133,7 +127,6 @@ $.getJSON("/js/data.json", function (data) {
 var showModal = function(name){
 
     if(!dataJSON) return;
-    console.log("asdf "+name);
     if(!makeDescription(name)) return;
     
     $('#modal').css({
@@ -165,7 +158,7 @@ var makeDescription = function(id){
     target.empty();
     target.append("<h1>"+data.name+"</h1>");
     if(data.desc){
-        data.desc = data.desc.replace("\n", "</p><p>");
+        data.desc = data.desc.split("\n").join("</p><p>");// data.desc.replace("\n", "</p><p>");
         target.append("<p>"+data.desc+"</p>");
     }
     if(data.sample) {
