@@ -161,11 +161,16 @@ var makeDescription = function(id){
         data.desc = data.desc.split("\n").join("</p><p>");// data.desc.replace("\n", "</p><p>");
         target.append("<p>"+data.desc+"</p>");
     }
-    if(data.sample) {
-        target.append("<p><a target='_blank' href=\""+data.sample+"\">Ukázka</a></p>");
-    }
     if(data.site) {
         target.append("<p><a target='_blank' href=\""+data.site+"\">Stránky</a></p>");   
+    }
+    if(data.sample) {
+        if(data.sample.startsWith("https://www.youtube.com/watch?")){
+            var videoId = data.sample.substring(data.sample.indexOf("v=")+2);
+            target.append("<iframe class=\"yt-embed\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+videoId+"\" frameborder=\"0\" allowfullscreen></iframe>");
+        } else {
+            target.append("<p><a target='_blank' href=\""+data.sample+"\">Ukázka</a></p>");
+        }
     }
     return true;
 };
