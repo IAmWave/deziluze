@@ -97,6 +97,10 @@ a {
 }
 
 .section-intro {
+    @media print {
+        display: none;
+    }
+
     @media (max-width: 767px) {
         background-color: rgba(0,0,0,0.7);
     }
@@ -180,11 +184,17 @@ a {
             font-size: 60px;
         }
     }
+    @media print {
+        display: none;
+    }
 }
 
 .separator {
     height:3px;
     background-color:white;
+    @media print {
+        display: none;
+    }
 }
 
 .textblock {
@@ -243,7 +253,6 @@ a {
 }
 
 .section-program {
-
     h2 {
         text-align: center;
         //padding-bottom: 10px;
@@ -294,7 +303,26 @@ a {
             font-style: italic;
         }
     }
-    //background: #fff;
+
+    @media print {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        h1, h2, .textblock {
+            padding: 0px;
+            margin: 0px;
+            margin-bottom: 10px;
+            line-height: 150%;
+        }
+        font-size: 13px;
+        .event {
+            padding: 0px;
+            padding-bottom: 10px;
+            .event-name {
+                font-size: 17px;
+            }
+        }
+    }
 }
 
 h2 {

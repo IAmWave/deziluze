@@ -89,7 +89,7 @@ $.getJSON("/js/data.json", function (data) {
     }
 
     for(var i = 0; i < data.program.length; i++){
-        var day = $('<div>').addClass("col-md-6").addClass('day');
+        var day = $('<div>').addClass("col-xs-6").addClass('day');
         day.append($('<h2>').append(data.program[i].name));
         for(var j = 0; j < data.program[i].data.length; j++) {
             var cur = data.program[i].data[j];
