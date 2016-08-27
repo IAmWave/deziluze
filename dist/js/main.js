@@ -59,8 +59,8 @@ vid.on("pause", function() {
 });
 
 $(document).ready(function(){
-    if(vid.css('display')==='none'){
-        vid[0].pause();
+    if(vid.css('display')!=='none'){
+        vid[0].play();
     }
 });
 
